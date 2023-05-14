@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: white;
+    background-color: #161b22;
+    font-size: 1.7rem;
+    justify-content: center;
+}
+
+
+h1 {
+    color: white;
+}
+
+.wrapper-dice {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+button, input {
+    outline: none;
+    background-color: #161b22;
+    color: white;
+    height: 60px;
+    font-weight: 400;
+    font-size: 2rem;
+    width: 120px;
+    border: .5px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 100px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+button:hover{
+    background-color: white;
+    color: #161b22;
+    font-weight: 600;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.609), 0 0 20px rgba(255, 255, 255, 0.609);
+    
+}
